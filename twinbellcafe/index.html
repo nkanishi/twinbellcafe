@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "ja">
+ <head>
+ <meta charset ="UTF-8">
+ <title>Twinbell Cafe</title>
+ <meta name = "viewport" content = "width = device-width,intial-scale = 1">
+ <link rel="stylesheet" href = "css/styless.css">
+ <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <a href="./index.html">
+          <img class = "hed" src="images/header7.jpg">     
+     </a>
+     <div class="headtel">
+      <div class="tel2"><a href="tel:012000000000">☎ 087-880-7345</a></div>
+      <div class="mail"><a href="./about.html#infoid">メールでお問合せ</a></div>
+    </div>
+    </header>
+
+        <div class="container">          
+            <main>            
+             <component v-bind:is="currentBanner" />
+            </main>
+     
+     
+        <div class="main2">
+        
+           
+          <div class="titlebar">
+            <img src="images/title.jpg">
+          </div>
+           
+              
+              
+              <div class="date">
+                 <img src="images/date1.jpg">
+              </div>
+                
+              <br>
+             
+              <div class="titlebar">
+                <img src="images/title2.jpg">
+              </div>
+                 <div  class="toplink">
+                   <div class="t1"> 
+                    <div class="t2"><a href="./about.html#tenpoid">店舗情報</a></div>     
+                    <a href="./about.html#tenpoid"><img src="images/gaikanb.jpg"></a>
+                   </div>
+                   <div class="t1">  
+                    <div class="t2"><a href="./about.html#menuid">メニュー</a></div>        
+                    <a href="./about.html#menuid"><img src="images/tekeb.png"></a>
+                   </div>
+                   <div class="t1"> 
+                    <div class="t2"><a href="./about.html#takeid">テイクアウト予約</a></div>          
+                    <a href="./about.html#takeid"><img src="images/yoyakub.jpg"></a>
+                   </div> 
+                 </div>
+
+                 
+                 <br>
+
+                 <div class="titlebar">
+                  <img src="images/title3.jpg">
+                </div>
+              <div class="t3"><a href="./about.html#eventid">イベント・出店依頼　募集中!</a></div> 
+               <div class="toplink2"><a href="./about.html#eventid"><img src="images/irai.jpg"></a></div>
+               <!-- <div class="news">
+                <p>
+                 かわいいオシャレなクレープ移動販売<br>
+                 ・集客力UP!<br>
+                 ・注目度 No1!
+                </p>
+            </div> -->
+            
+              </div>
+        </div>  
+
+        <br>
+
+      </main2>
+    </div>
+
+    <footer>
+      <p>&copy;Copyright Twinbellcafe.ALL right reserved.</P>
+   　</footer>
+     
+        
+      
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+

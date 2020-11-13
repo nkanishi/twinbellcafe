@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <meta charset ="UTF-8">
+    <title>Twinbell Cafe</title>
+    <meta name = "viewport" content = "width = device-width,intial-scale = 1">
+    <link rel="stylesheet" href = "css/styless.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+   </head>
+   <body>
+     <div id="app">
+      <header>
+        <a href="./index.html">
+            <img class = "hed" src="images/header7.jpg">     
+       </a>
+       <div class="headtel">
+        <div class="tel2"><a href="tel:012000000000">☎ 087-880-7345</a></div>
+        <div class="mail"><a href="./about.html#infoid">メールでお問合せ</a></div>
+      </div>
+      </header>
+
+           <div class="container">
+            <main>            
+              <component v-bind:is="currentBanner" />
+             </main>
+             
+            
+          
+            
+            
+        
+     
+           <main2>
+            <div class="titlebar" id="tenpoid">
+              <img src="images/title4.jpg">
+            </div>
+            
+            <p class="title3">MAP</p>
+            <div class="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3295.061694385301!2d134.07011481522218!3d34.323448180533056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553952b5dadcad1%3A0x23d20b0baeb1b35b!2z44OE44Kk44Oz44OZ44Or44Kr44OV44KnKFR3aW5iZWxsIENhZmUp!5e0!3m2!1sja!2sjp!4v1605273544097!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+           
+            <div class="toplink2"> </div>
+            <p class="title3">駐車場</p>
+            <div class="toplink2"><img src="images/parkinga.jpg"></div>
+
+            <p class="title3">店内</p>
+            <div class="toplink2"><img src="images/tennaia.png"></div>
+            <br>
+             
+
+
+            <div class="titlebar" id="menuid">
+              <img src="images/title2.jpg">
+            </div>
+            <p class="title3">レギュラー　メニュー</p>
+            <div class="toplink2"><img src="images/topmenu.jpg"></div>
+            
+            <p class="title3">期間限定　メニュー</p>
+            <div class="gentei">
+              <div class="items"><img src="images/item1.jpg"></div>
+              <div class="items"><img src="images/item2.jpg"></div>
+              <div class="items"><img src="images/item3.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item4.jpg"></div>
+              <div class="items"><img src="images/item5.jpg"></div>
+              <div class="items"><img src="images/item6.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item7.jpg"></div>
+              <div class="items"><img src="images/item8.jpg"></div>
+              <div class="items"><img src="images/item9.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item10.jpg"></div>
+              <div class="items"><img src="images/item11.jpg"></div>
+              <div class="items"><img src="images/item12.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item13.jpg"></div>
+              <div class="items"><img src="images/item14.jpg"></div>
+              <div class="items"><img src="images/item15.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item16.jpg"></div>
+              <div class="items"><img src="images/item17.jpg"></div>
+              <div class="items"><img src="images/item18.jpg"></div>
+            </div>
+            <div class="gentei">
+              <div class="items"><img src="images/item19.jpg"></div>
+              <div class="items"><img src="images/item11.jpg"></div>
+              <div class="items"><img src="images/item12.jpg"></div>
+            </div>
+            <br>
+            
+            <div class="titlebar" id="tenpoid">
+              <img src="images/title6.jpg">
+            </div>
+
+            <div class="toplink2"><img src="images/item1.jpg"></div>
+            <div class="tel2"><a href="tel:012000000000">☎ 087-880-7345</a></div>
+            <div class="tel2"><a href="tel:012000000000">LINE</a></div>
+            <br>
+     
+
+
+            <div class="titlebar" id="eventid">
+              <img src="images/title3.jpg">
+            </div>
+            <div class="toplink2"><img src="images/soto.jpg"></div>
+            <br>
+
+
+            <div class="titlebar" id="infoid">
+              <img src="images/title7.jpg">
+            </div>
+
+            <div class = "formmain">
+              <form name="contact" method="POST" netlify>
+                <p>
+                <input type="hidden" name="form-name" action="./success.html" value="contact" />
+                  <label>
+                    <div class="mailtitle"><span class="need">必須</span>お名前</div>
+                    <input class="mails" type="text" name="name" />
+                  </label>   
+                </p>
+                <p>
+                  <label>
+                    <div class="mailtitle"><span class="need">必須</span>Email</div>
+                    <input class="mails" type="email" name="email" />
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <div class="mailtitle"><span class="need">必須</span>お問合せ内容</div>
+                    <textarea class="mails" name="message"></textarea>
+                  </label>
+                </p>
+                <p class="buttontitle">
+                  <button class="button" type="submit">送信</button>
+                </p>
+              </form>
+            </div>
+
+           
+            
+
+           
+            <br>
+             
+           </main2>
+        </div>
+    
+      
+       <footer>
+        <p>&copy;Copyright Twinbellcafe.ALL right reserved.</P>
+     　</footer>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

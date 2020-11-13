@@ -1,0 +1,442 @@
+
+.mainView{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+
+}
+
+.container{
+  width:55%;
+  height: 60%;
+  margin:0 auto;
+}
+
+    
+/* ここから */
+  
+   html{
+    font-family:serif ;
+    font-size: 30px;
+    line-height: 3rem;
+    
+  }  
+  body{
+    margin: 0 auto;
+  
+  }
+  /* .main2{
+    margin:0 3%;
+    margin:0 3% 5% 3%;
+  }  */
+  
+
+  a{
+    color: #040404;
+    text-decoration: none;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    background-color: white;
+  } 
+  .logo img{
+    width:20%;
+    height:20%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+  .headtel{
+    display: flex;
+  }
+  .tel2{
+    background:yellow;
+    text-align: center;
+    color:black;
+    font-weight:bold;
+    padding:0 1%;
+    vertical-align:bottom;
+    margin: 0 2% 1% 40%;
+    border:1px solid rgb(173, 166, 166);
+    font-size:25px;
+    width: 300px;
+  }   
+  .mail{
+    background:yellow;
+    text-align: center;
+    color:black;
+    font-weight:bold;
+    padding:0 1%;
+    vertical-align:bottom;
+    margin: 0 2%  1% 1%;
+    border:1px solid rgb(173, 166, 166);
+    font-size:25px;
+    width: 300px;
+  }   
+  
+  .hed{
+    vertical-align:bottom;
+    width:60%;
+    height: 60%;
+  }
+  header{
+    border-bottom:1px solid rgb(173, 166, 166);
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  footer{
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 1%;
+    
+    margin-top: 7%;
+    background:yellow;
+  }
+  /* トップ  */
+  .title{
+    /* background: rgb(253, 237, 17) ; */
+    background:yellow;
+    text-align: center;
+    color:black;
+    font-weight:bold;
+    padding:0 5%;
+    vertical-align:bottom;
+    margin: 0 5%;
+    border:1px solid rgb(173, 166, 166);
+ 
+    }
+  .title3{
+    text-align: center;
+    color:black;
+    font-weight:bold;
+    padding:0 5%;
+    vertical-align:bottom;
+    margin: 0 5%;
+    }
+    .news{
+      padding: 0.5em 1em;
+      margin:  0 10% 6% 10%;
+      border: double 5px #f8fc33;
+      padding:0 5%;
+     
+    }
+    .news p{
+      margin: 0; 
+      padding: 0;
+      font-size:26px;
+    }
+ 
+
+  .date{
+    width: 60%;
+    margin:0 auto;
+  }
+  .toplink{
+    display:flex;
+  }
+  .t1{
+    margin:0 1%;
+    text-align: center;
+   
+  }
+  .t2 a{
+    border-bottom:1px solid rgb(173, 166, 166);
+  }
+  .t3 a{
+    text-align: center;
+    border-bottom:1px solid rgb(173, 166, 166);
+    font-weight: bold;
+  }
+  .t3{
+    text-align: center;
+  }
+  .toplink2{
+    width: 80%;
+    margin:0 auto;
+  }
+  /* フォーム */
+  .formmain{
+    margin: 0 auto;
+    padding: 0 8%;
+  }
+  input{
+    width:90%;
+    height: 40px;
+  }
+  }
+  textarea{
+    width:90%;
+    height: 150px;
+  }
+  .need{
+    background: rgb(238, 85, 225);
+    margin-right: 5%;
+    color:white;
+    width:60px;
+    display: inline-block;
+    text-align: center;
+  }
+  .button{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  
+  /* スマホ向け */
+  @media(max-width: 1020px){
+    .mainView{
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+    
+    }
+    .container{
+      width:100%;
+      height: 100%;
+      margin:0 auto;
+    }
+    
+    html{
+      font-family:serif ;
+      font-size: 17px;
+      line-height: 3rem;
+      
+    }  
+    body{
+      margin: 0 auto;
+    
+    }
+   /* .main2{
+    margin:0 3%;
+    margin:0 3% 5% 3%;
+  } 
+   */
+    a{
+      color: #040404;
+      text-decoration: none;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    
+    .logo {
+      background-color: white;
+    } 
+    .logo img{
+      width:35%;
+      height:35%;
+      display: inline-block;
+      margin-top: 10px;
+      margin-left: 2%;
+    }
+    .tel2{
+      background:yellow;
+      text-align: center;
+      color:black;
+      font-weight:bold;
+      padding:0 1%;
+      vertical-align:bottom;
+      /* margin: 0 2% 1% 10%; */
+      margin:0 auto;
+      border:1px solid rgb(173, 166, 166);
+      font-size:14px;
+      width:80%;
+    }   
+    .mail{
+      background:yellow;
+      text-align: center;
+      color:black;
+      font-weight:bold;
+      padding:0 1%;
+      vertical-align:bottom;
+      /* margin: 0 2%  1% 1%; */
+      margin:0 auto;
+      border:1px solid rgb(173, 166, 166);
+      font-size:14px;
+      width:90%;
+      
+    }   
+    
+    .hed{
+      vertical-align:bottom;
+      width:100%;
+      height: 60%;
+    }
+    footer{
+      line-height: 1.5rem;
+      text-align: center;
+      padding: 1%;
+      background:yellow;
+
+      margin-top: 7%;
+    }
+  /* トップ  */
+  .news{
+    padding: 0.5em 1em;
+    margin:  0 6% 6% 6%;
+    border: double 5px #f8fc33;
+    padding:0 5%;
+   
+  }
+  .news p{
+    margin: 0; 
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .date{
+    width: 80%;
+    margin:0 auto;
+  }
+  .toplink{
+    display:flex;
+  }
+  .t1{
+    margin:0 1%;
+    text-align: center;
+   
+  }
+  .t2 a{
+    border-bottom:1px solid rgb(173, 166, 166);
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .t3 a{
+    text-align: center;
+    margin: 0 auto;
+    border-bottom:1px solid rgb(173, 166, 166);
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .t3{
+    text-align: center;
+  }
+  .title{
+  /* background: rgb(253, 237, 17) ; */
+  background:yellow;
+  text-align: center;
+  color:black;
+  font-weight:bold;
+  padding:0 5%;
+  vertical-align:bottom;
+  margin:3% 3%;
+  }
+  .title3{
+    background:yellow;
+  text-align: center;
+  color:black;
+  font-weight:bold;
+  padding:0 5%;
+  vertical-align:bottom;
+  margin:1% 20%;
+    }
+  .toplink2{
+    width: 90%;
+    margin:0 auto;
+  }
+
+  /* about */
+  .title2{
+  background:yellow;
+  text-align: center;
+  color:black;
+  font-weight:bold;
+  padding:0 5%;
+  vertical-align:bottom;
+  margin:0 3% 0 3%;
+   }
+.gmap{
+  position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.gmap iframe,
+.gmap object,
+.gmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.gentei{
+  display:flex;
+  margin:1%;
+}
+.items{
+  margin:1px;
+}
+
+/* メール */
+.formmain{
+  margin: 0 auto;
+  padding: 0 8%;
+}
+input{
+  width:90%;
+  height: 40px;
+}
+}
+textarea{
+  width:90%;
+  height: 150px;
+}
+.need{
+  background: rgb(245, 141, 236);
+  margin-right: 5%;
+  color:white;
+  width:60px;
+  display: inline-block;
+  text-align: center;
+  padding:0px;
+  font-size:13px;
+  border-radius: 10px;
+}
+.mailtitle{
+  background:rgb(219, 217, 219);
+  border-top: 1px solid rgb(24, 21, 21);
+  border-bottom: 1px solid rgb(24, 21, 21);
+}
+.mails{
+  margin: 3% auto;
+  
+}
+.button{
+  margin: 0 auto;
+  text-align: center;
+  font-size:22px;
+  background:rgb(245, 141, 236);
+  color:white;
+  border-radius: 10px;
+}
+.buttontitle{
+  margin: 0 auto;
+  text-align: center;
+}
+}
+
+
+}
+
+
+
+
+    
+  
+
+  
+  
+  
+
+
+  
+  
